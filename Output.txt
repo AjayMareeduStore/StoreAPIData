@@ -1,0 +1,32 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?Key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	Key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"location":{"lat":-9879879.0,"lng":878788.0},"accuracy":50,"name":"AjayMareedu","phone_number":"98797979797","address":"test address","types":null,"website":null,"language":"English"}
+HTTP/1.1 200 OK
+Date: Sun, 24 Sep 2023 07:22:06 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "1aa509ba89c3fd94067641c053d1c71f",
+    "scope": "APP",
+    "reference": "ad96924f9c6373b3045237015a8ad06ead96924f9c6373b3045237015a8ad06e",
+    "id": "ad96924f9c6373b3045237015a8ad06e"
+}

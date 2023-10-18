@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: CucumberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.02 s <<< FAILURE! -- in CucumberOptions.TestRunner
+validate the able to see the skupreview URL is mapping for the requsted Design.Verify that skupreviewurl was not available of requestedc commerceID in PDP Pages -- Time elapsed: 2.698 s <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<true> but was:<false>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:174)
+	at junit.framework.Assert.assertEquals(Assert.java:181)
+	at StepDescription.SkuPreviewURL_Books.verify_the_data_received_for_the_statuscode_is_the_pdp_url(SkuPreviewURL_Books.java:210)
+	at ✽.verify the data received for the "CommerceProduct_371869" statuscode is the pdp url(file:///C:/Users/ajay.mareedu/CucumberFrameWork/Automation/src/test/java/FeatureFiles/SkuPreviewRetrieve.feature:21)
+

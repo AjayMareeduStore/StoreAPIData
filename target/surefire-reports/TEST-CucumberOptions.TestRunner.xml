@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CucumberOptions.TestRunner" time="28.021" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ajay.mareedu\CucumberFrameWork\Automation\target\test-classes;C:\Users\ajay.mareedu\CucumberFrameWork\Automation\target\classes;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\ajay.mareedu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\ajay.mareedu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\ajay.mareedu\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ajay.mareedu\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ajay.mareedu\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ajay.mareedu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ajay.mareedu\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ajay.mareedu\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ajay.mareedu\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\ajay.mareedu\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\ajay.mareedu\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\ajay.mareedu\.m2\repository\net\masterthought\cucumber-reporting\5.7.6\cucumber-reporting-5.7.6.jar;C:\Users\ajay.mareedu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\ajay.mareedu\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\ajay.mareedu\.m2\repository\joda-time\joda-time\2.12.2\joda-time-2.12.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ajay.mareedu\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\ajay.mareedu\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar;C:\Users\ajay.mareedu\.m2\repository\org\jsoup\jsoup\1.16.1\jsoup-1.16.1.jar;C:\Users\ajay.mareedu\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ajay.mareedu\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\ajay.mareedu\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ajay.mareedu\AppData\Local\Temp\surefire608532169671860419\surefirebooter-20230929084456739_3.jar C:\Users\ajay.mareedu\AppData\Local\Temp\surefire608532169671860419 2023-09-29T08-44-55_741-jvmRun1 surefire-20230929084456739_1tmp surefire_0-20230929084456739_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\ajay.mareedu\CucumberFrameWork\Automation\target\test-classes;C:\Users\ajay.mareedu\CucumberFrameWork\Automation\target\classes;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\ajay.mareedu\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\ajay.mareedu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\ajay.mareedu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\ajay.mareedu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\ajay.mareedu\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ajay.mareedu\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ajay.mareedu\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ajay.mareedu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ajay.mareedu\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ajay.mareedu\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ajay.mareedu\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\ajay.mareedu\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\ajay.mareedu\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\ajay.mareedu\.m2\repository\net\masterthought\cucumber-reporting\5.7.6\cucumber-reporting-5.7.6.jar;C:\Users\ajay.mareedu\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\ajay.mareedu\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\ajay.mareedu\.m2\repository\joda-time\joda-time\2.12.2\joda-time-2.12.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ajay.mareedu\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\ajay.mareedu\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar;C:\Users\ajay.mareedu\.m2\repository\org\jsoup\jsoup\1.16.1\jsoup-1.16.1.jar;C:\Users\ajay.mareedu\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ajay.mareedu\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\ajay.mareedu\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ajay.mareedu\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\ajay.mareedu\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ajay.mareedu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre"/>
+    <property name="basedir" value="C:\Users\ajay.mareedu\CucumberFrameWork\Automation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ajay.mareedu\AppData\Local\Temp\surefire608532169671860419\surefirebooter-20230929084456739_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="user.name" value="ajay.mareedu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ajay.mareedu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AJAY~1.MAR\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="user.dir" value="C:\Users\ajay.mareedu\CucumberFrameWork\Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\Java\jre1.8.0_60\bin;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Users\ajay.mareedu\Desktop\New folder\apache-maven-3.9.4\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Verify User should be able to see the skupreviewURL in the response Data for requested CommerceID" classname="validate the able to see the skupreview URL is mapping for the requsted Design" time="24.175">
+    <system-out><![CDATA[CommerceProductID looking for (CommerceProduct_8107)
+Total No Design Groups available in /photo-gift/api/v1 are = 40
+Name of the designGroup is (Design Your Own)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell540/cdm/de8eaf30af3346b8a6e32841f15f80e9/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695708609839*
+Name of the designGroup is (Studio Multi)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell112/cdm/3f4367d2477243e5aecccb5f3a8029cb/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695936336031*
+Name of the designGroup is (Studio)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell514/00df77ac4d904acdbfe69889c9b609bb/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695916534416*
+Name of the designGroup is (Travel Memories)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell490/4d75ddef62fd4fa9b44066a5fbb71f41/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1692801188881*
+Name of the designGroup is (Earth Tones)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell588/2fb902cf7a254481993ef054bc040fb0/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695079898857*
+Name of the designGroup is (Summer Snapshots)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell929/cdm/e28827c9d0214c1b8f76199768b85667/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695935333107*
+Name of the designGroup is (Reflections On Our Year)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell558/b83ed36254eb4856bd6f0d3f0084dfea/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695708841686*
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell558/b83ed36254eb4856bd6f0d3f0084dfea/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695708847380*
+Name of the designGroup is (Contemporary Travel)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell611/e1adf1ef45b14e7fb1bb1df568b54339/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1692801225938*
+Name of the designGroup is (Rustic Family Snapshots)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell662/47b510cf75cc49619f823d66e9d647e9/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695935450659*
+Name of the designGroup is (Elegant Florals)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell25/1f5ded2a1fa944f09467c6facebb1ed8/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695882878802*
+Name of the designGroup is (Warm Neutrals)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell177/5ac092ef59a44cc9b1e3d84aa216446d/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695936057123*
+Name of the designGroup is (Square Photos)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell984/cdm/e3e5d2d583e746b6bab670c3747771b5/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695935182422*
+Name of the designGroup is (Destination Stamps)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell267/c58ba37cc9ae407683e5b012926df837/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695354242599*
+Name of the designGroup is (Contemporary Wedding)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell413/3dcd0b9af1d1402a8bcde87d36acac5f/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695935701204*
+Name of the designGroup is (Love Lives Here)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell668/e3c75f7f7e474aafb9eff68585bf7626/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695353429859*
+Name of the designGroup is (Tropical Beach Escape)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell181/ed99c65890e04e4d9ef450f819d13ea3/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695882599024*
+Name of the designGroup is (Family Yearbook)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell132/c53e53b49f4d47cbadb6aafd090b3dcd/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1694711081206*
+Name of the designGroup is (Vibrant Memories)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell536/cdm/bdef041947fc4b76b30fcb50fa3db440/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695936268037*
+Name of the designGroup is (Bold Type)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell85/3b0216a2cfd44ee09081155906dff98e/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695936013803*
+Name of the designGroup is (Natural Blues)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell698/cdm/bad36ee988cd4f188de650cd9efb7315/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1694710453751*
+Name of the designGroup is (Simple)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell45/cdm/e06393402f1446ab925efa3d6ec5de18/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695935623943*
+Name of the designGroup is (Album)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell521/cdm/1fdbe31ca5a2446392f2e846c41490b4/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695882895034*
+Name of the designGroup is (Year of Memories)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell164/2f02a35c94514ca6ab085d581ee77ea7/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695936614848*
+Name of the designGroup is (Abstract Baby First Year)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell650/758ef2014bf64e3fa9f95a15e4f3803b/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695661549826*
+Name of the designGroup is (Solid Brights)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell4/f442df10a0dc4d9797ccfbb13bbceb35/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1692739680619*
+Name of the designGroup is (Fresh Cookbook)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell782/53dd144b005b46aa92d540c0e077f01c/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695354307694*
+Name of the designGroup is (Painterly Patterns)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell776/cdm/3ccf6bcce0624ade980f612184133785/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695936111489*
+Name of the designGroup is (Organic Patterns)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell803/cdm/b649a8e384494eb4b2dda8f08c1061d3/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695936289715*
+Name of the designGroup is (Watercolor Sketchbook)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell952/00de5e21c1824cec828d09569b459cf9/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695935588800*
+Name of the designGroup is (Modern Rustic)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell533/79838140d06c42fb9e59018d193ea8ab/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695935505266*
+Name of the designGroup is (Nautical Summer)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell427/8a7dbba8104d4614bbc415a93446d56b/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695353251584*
+Name of the designGroup is (I Love My Dog)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/designassets/cell189/9a6ea90fabaf4ec3903dea390a57e2ea/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695935968949*
+Name of the designGroup is (Simply Love)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell18/cdm/749d2cee505c44f58bae42437ec7b12c/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695353557697*
+Name of the designGroup is (Surf & Sand)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell76/cdm/ad124f7aacdd49d985efcb378942e169/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695936140776*
+Name of the designGroup is (Watercolors)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell270/cdm/5c4f3ffcbd57411ab645bc3693c05d25/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695936133087*
+Name of the designGroup is (Chalkboard)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell702/cdm/6803b1dcdd704d8aa96a8962fe04146e/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695936594370*
+Name of the designGroup is (Serene Memories)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell366/cdm/c4d1ba38a1cf451d99a69105c07ce166/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695935670261*
+Name of the designGroup is (Fun Dots)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell863/cdm/d21f28db57e5407383493efba800aa10/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695936192836*
+Name of the designGroup is (Watercolor Memories)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-1.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell594/cdm/986b772bd78e4f21be0b4ec721518535/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695935736582*
+Name of the designGroup is (Aloha)
+*title of the Sku previewURL for (CommerceProduct_8107) is - *https://stg-static-2.sf-cdn.com/renderer/v1/ferenderer?dsp=https://prod-cd-designassets.sf-cdn.com/v1/cmg/cell674/cdm/dc5e6743ddc74e61afa27bd84907e75c/3&st=inside&vt=frontCoverInsidePortraitOverlay&cx=/hp/sf/sf-us/snapfish-us&pt=1695935795495*
+]]></system-out>
+  </testcase>
+  <testcase name="Verify that skupreviewurl was not available of requestedc commerceID in PDP Pages" classname="validate the able to see the skupreview URL is mapping for the requsted Design" time="2.698">
+    <failure message="expected:&lt;true&gt; but was:&lt;false&gt;" type="junit.framework.AssertionFailedError"><![CDATA[junit.framework.AssertionFailedError: expected:<true> but was:<false>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:174)
+	at junit.framework.Assert.assertEquals(Assert.java:181)
+	at StepDescription.SkuPreviewURL_Books.verify_the_data_received_for_the_statuscode_is_the_pdp_url(SkuPreviewURL_Books.java:210)
+	at ✽.verify the data received for the "CommerceProduct_371869" statuscode is the pdp url(file:///C:/Users/ajay.mareedu/CucumberFrameWork/Automation/src/test/java/FeatureFiles/SkuPreviewRetrieve.feature:21)
+]]></failure>
+    <system-out><![CDATA[Total No Design Groups available in /photo-gift/api/v1/design-product-details are = **13**
+Designgroup name is (Travel Memories)
+*title of the Sku previewURL for (CommerceProduct_371869) is - *null*
+For the (SNAP_TravelMemories_8x6_PhotoBook_01F) design skupreviewurl attribute is *Missing*
+{
+    "id": "10702",
+    "key": "DEMO-2",
+    "self": "http://localhost:8080/rest/api/2/issue/10702"
+}
+Issue created
+]]></system-out>
+  </testcase>
+</testsuite>
